@@ -5,7 +5,6 @@ class Footer extends Component {
     return (
       <footer className={this.props.className}>
         <p>&copy; React test</p>
-        <p>Done in react</p>
       </footer>
     );
   }

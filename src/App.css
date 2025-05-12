@@ -1,6 +1,8 @@
+html,
 body {
   background-color: antiquewhite;
   color: #000;
+  height: 100%;
 }
 
 #root {
@@ -9,6 +11,8 @@ body {
 
 .container-app {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-header {
@@ -23,9 +27,9 @@ body {
 }
 
 .myBtn {
-  background-color: aqua;
+  background-color: #5196f1;
   color: #000;
-  margin-bottom: 1rem;
+  margin: 1rem auto;
 }
 
 .image-container {
@@ -41,4 +45,8 @@ body {
 .footer {
   background-color: #000;
   color: #fff;
+}
+
+footer > p {
+  margin: 0;
 }

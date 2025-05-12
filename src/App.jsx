@@ -12,7 +12,6 @@ function App() {
   const handleClick = function () {
     setPhotoID(Math.floor(Math.random() * 500));
     console.log(photoId);
-    return photoId;
   };
 
   let imageUrl = `https://picsum.photos/id/${photoId}/200/300`;
