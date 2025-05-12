@@ -1,0 +1,44 @@
+body {
+  background-color: antiquewhite;
+  color: #000;
+}
+
+#root {
+  text-align: center;
+}
+
+.container-app {
+  height: 100vh;
+}
+
+.nav-header {
+  padding: 0.5rem;
+}
+
+.nav-header > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.myBtn {
+  background-color: aqua;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image-description {
+  color: rgb(11, 100, 194);
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+}
